@@ -1,5 +1,11 @@
-## Puzzle Park
-This Datapack is made for Parkour, Puzzles, Minigames and Ect...
+# Building
+This project uses a custom build tool OfekN made (MinecraftScript.jar)<br>
+There are a couple of batch files for you to use:
+- [`built.bat`](./build.bat) - builds the project once, will also produce a zip file.
+- [`autobuild.bat`](./autobuild.bat) automatically builds when the code changes, doesn't create a zip file.
+- [`clean.bat`](./clean.bat) deletes all generated files.
+
+## About MinecraftScript
 Minecraft script is a pretty simple preprocessor to help with datapack develoopment, here are all the features:
 ### Multiple functions within a file
 You can declare multiple functions within a file like so
