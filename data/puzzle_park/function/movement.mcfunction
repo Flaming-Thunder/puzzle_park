@@ -1,0 +1,4 @@
+execute as @e[tag=delete.instant] at @s unless entity @a[distance=..2] run function puzzle_park:movement/internal0
+execute as @a unless score @s global.player.is_sneaking matches 1.. as @e[tag=movement_hitbox.climb] at @s positioned ~ ~1.1 ~ unless entity @a[distance=1.2..] run function puzzle_park:movement/internal1
+execute as @a unless score @s global.player.is_sneaking matches 1.. as @e[tag=movement_hitbox.crawl] at @s positioned ~ ~-1 ~ unless entity @a[distance=1.2..] run function puzzle_park:movement/internal2
+execute as @a at @s if score @s global.player.is_sneaking matches 1.. positioned ~ ~1.3 ~ positioned ^ ^ ^.75 run function puzzle_park:movement/internal3

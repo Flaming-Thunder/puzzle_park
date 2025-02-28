@@ -1,0 +1,1 @@
+$summon block_display ~ ~ ~ {Tags:["movement_hitbox","delete.instant","movement_hitbox.$(Function_Tag)"], Passengers:[{id:shulker,Tags:["movement_hitbox","delete.instant","movement_hitbox.$(Function_Tag)"],active_effects:[{id:"minecraft:resistance",duration:-1,amplifier:10,show_particles:false}],attributes:[{base:1.01,id:"minecraft:scale"}],NoAI:true,Silent:true}]}

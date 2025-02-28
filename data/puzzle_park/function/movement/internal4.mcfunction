@@ -1,0 +1,6 @@
+execute if block ~ ~ ~ air if block ~ ~1 ~ air unless block ~ ~-1 ~ air positioned ~ ~-2.65 ~ unless entity @e[tag=movement_hitbox,distance=..0.1] run function puzzle_park:movement/internal5
+execute if block ~ ~ ~ #stairs[half=top] unless block ~ ~-1 ~ air positioned ~ ~-2.5 ~ unless entity @e[tag=movement_hitbox,distance=..0.1] run function puzzle_park:movement/internal6
+execute if block ~ ~ ~ #stairs[half=bottom] positioned ~ ~-2.5 ~ unless entity @e[tag=movement_hitbox,distance=..0.1] run function puzzle_park:movement/internal7
+execute if block ~ ~ ~ #slabs[type=top] unless block ~ ~-1 ~ air positioned ~ ~-2.5 ~ unless entity @e[tag=movement_hitbox,distance=..0.1] run function puzzle_park:movement/internal8
+execute if block ~ ~ ~ #slabs[type=bottom] positioned ~ ~-2.5 ~ unless entity @e[tag=movement_hitbox,distance=..0.1] run function puzzle_park:movement/internal9
+execute if entity @s[nbt={OnGround:1b}] if block ~ ~ ~ air unless block ~ ~-1 ~ air unless block ~ ~1 ~ air positioned ~ ~.5 ~ unless entity @e[tag=movement_hitbox,distance=..0.1] if entity @s[distance=..1.4] run function puzzle_park:movement/internal10
