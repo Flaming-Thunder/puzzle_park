@@ -1,0 +1,2 @@
+execute as @s at @s if score @s global.player.is_sneaking matches 0 run function puzzle_park:source/internal15
+execute as @s at @s if score @s global.player.is_sneaking matches 1.. run function puzzle_park:source/internal16

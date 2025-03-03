@@ -1,0 +1,1 @@
+give @s item_frame[ item_name='[{"text":"wire"}]', item_model="minecraft:shears", entity_data={id: "minecraft:item_frame", Tags:["puzzle_park", "puzzle_park.spawn_custom", "puzzle_park-block-wire"],Silent:true}]

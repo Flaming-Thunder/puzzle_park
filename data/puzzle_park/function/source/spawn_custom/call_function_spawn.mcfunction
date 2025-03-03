@@ -1,1 +1,1 @@
-$execute align xyz positioned ~.5 ~.5 ~.5 run function puzzle_park:main/$(function_spawn)
+$execute positioned ~ ~.1 ~ align xyz positioned ~.5 ~.5 ~.5 run function puzzle_park:main/$(function_spawn)

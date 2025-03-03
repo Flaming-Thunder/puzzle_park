@@ -1,0 +1,1 @@
+give @s item_frame[ item_name='[{"text":"hanging_bar"}]', item_model="minecraft:chain", entity_data={id: "minecraft:item_frame", Tags:["puzzle_park", "puzzle_park.spawn_custom", "puzzle_park-block-hanging_bar"],Silent:true}]

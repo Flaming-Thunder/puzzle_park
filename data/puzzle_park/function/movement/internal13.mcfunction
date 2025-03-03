@@ -1,0 +1,2 @@
+effect clear @s levitation
+execute as @s[nbt={OnGround:true}] unless block ~ ~-0.01 ~ air positioned ~ ~-1 ~ unless entity @e[tag=puzzle_park.movement_hitbox,distance=..1.2] run function puzzle_park:movement/internal14

@@ -1,0 +1,1 @@
+data merge entity @s {block_state:{Name:"gray_candle"}}

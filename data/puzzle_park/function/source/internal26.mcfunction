@@ -1,0 +1,2 @@
+tag @s remove puzzle_park.block.wire.powered
+execute as @s at @s positioned ^ ^ ^1 as @e[tag=puzzle_park.block.wire,tag=!puzzle_park.block.wire.powered,distance=..0.0001] at @s run function puzzle_park:source/internal27

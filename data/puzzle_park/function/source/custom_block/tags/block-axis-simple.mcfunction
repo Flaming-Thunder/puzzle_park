@@ -1,0 +1,1 @@
+$execute as @s if entity @s[nbt={Facing:$(Facing)b}] rotated as @s as @e[tag=!puzzle_park.block.axis.$(Exclude_Axis_1),tag=!puzzle_park.block.axis.$(Exclude_Axis_2),tag=puzzle_park.$(Source).$(Block_Name),type=block_display,distance=..0.0001] run tag @s add puzzle_park.block.axis.$(Set_Axis)

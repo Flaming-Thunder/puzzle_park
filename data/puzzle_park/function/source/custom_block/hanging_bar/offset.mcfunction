@@ -1,0 +1,2 @@
+$execute as @a at @s positioned ~ ~1 ~ if block ~ ~ ~ air positioned ~ ~1 ~ positioned $(Offset) if entity @e[tag=puzzle_park.block.axis.$(Axis),tag=puzzle_park.block.hanging_bar,distance=..0.45] run function puzzle_park:source/internal14
+$execute as @a at @s positioned ~ ~2 ~ positioned $(Offset) unless entity @e[tag=puzzle_park.block.hanging_bar,distance=..0.8] if entity @e[tag=puzzle_park.block.hanging_bar,distance=..2] run function puzzle_park:source/internal17

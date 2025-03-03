@@ -1,0 +1,1 @@
+give @s allay_spawn_egg[ item_name='[{"text":"Fixer, Fix It!"},{"text":" || "},{"text":"Order Table"}]', item_model="minecraft:red_carpet", entity_data={id: "minecraft:marker", Tags:["puzzle_park", "puzzle_park.spawn_custom", "puzzle_park-ffi-order_table"]}]

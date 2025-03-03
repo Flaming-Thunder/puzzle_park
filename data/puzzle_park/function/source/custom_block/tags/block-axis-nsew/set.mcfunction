@@ -1,0 +1,4 @@
+$function puzzle_park:source/custom_block/tags/block-axis-nsew {Source:"$(Source)",Block_Name:"$(Name)",Type:"$(Type)",Facing:0,Exclude_Face_1:"s",Exclude_Face_2:"e",Exclude_Face_3:"w",Set_Face:"n"}
+$function puzzle_park:source/custom_block/tags/block-axis-nsew {Source:"$(Source)",Block_Name:"$(Name)",Type:"$(Type)",Facing:1,Exclude_Face_1:"s",Exclude_Face_2:"n",Exclude_Face_3:"w",Set_Face:"e"}
+$function puzzle_park:source/custom_block/tags/block-axis-nsew {Source:"$(Source)",Block_Name:"$(Name)",Type:"$(Type)",Facing:2,Exclude_Face_1:"n",Exclude_Face_2:"e",Exclude_Face_3:"w",Set_Face:"s"}
+$function puzzle_park:source/custom_block/tags/block-axis-nsew {Source:"$(Source)",Block_Name:"$(Name)",Type:"$(Type)",Facing:3,Exclude_Face_1:"s",Exclude_Face_2:"e",Exclude_Face_3:"n",Set_Face:"w"}

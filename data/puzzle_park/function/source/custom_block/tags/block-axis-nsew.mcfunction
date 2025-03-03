@@ -1,0 +1,5 @@
+$execute as @s if score @p global.player.facing-simple matches $(Facing) rotated as @s as @e[tag=!puzzle_park.block.facing.$(Exclude_Face_1),tag=!puzzle_park.block.facing.$(Exclude_Face_2),tag=!puzzle_park.block.facing.$(Exclude_Face_3),tag=puzzle_park.$(Source).$(Block_Name),type=$(Type),distance=..0.0001] run tag @s add puzzle_park.block.facing.$(Set_Face)
+$execute as @e[tag=puzzle_park.block.facing.n,tag=puzzle_park.$(Source).$(Block_Name),type=$(Type),distance=..0.0001] run function puzzle_park:source/internal3
+$execute as @e[tag=puzzle_park.block.facing.e,tag=puzzle_park.$(Source).$(Block_Name),type=$(Type),distance=..0.0001] run function puzzle_park:source/internal4
+$execute as @e[tag=puzzle_park.block.facing.s,tag=puzzle_park.$(Source).$(Block_Name),type=$(Type),distance=..0.0001] run function puzzle_park:source/internal5
+$execute as @e[tag=puzzle_park.block.facing.w,tag=puzzle_park.$(Source).$(Block_Name),type=$(Type),distance=..0.0001] run function puzzle_park:source/internal6

@@ -1,0 +1,1 @@
+playsound minecraft:block.note_block.bass ambient @a ~ ~ ~ 0.25 1 0

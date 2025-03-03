@@ -1,0 +1,1 @@
+execute as @e[tag=puzzle_park, tag=puzzle_park.block.physical] at @s run function puzzle_park:source/internal1

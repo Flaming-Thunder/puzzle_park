@@ -1,0 +1,1 @@
+tag @s remove puzzle_park.player.double_jumped

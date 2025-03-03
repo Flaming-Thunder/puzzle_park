@@ -1,1 +1,0 @@
-$execute as @a at @s if entity @e[tag=puzzle_park.block.warp_block.1,nbt={data:$(data)},distance=..1,type=marker] if entity @e[tag=puzzle_park.block.warp_block.2,nbt={data:$(data)}] run function puzzle_park:source/internal3

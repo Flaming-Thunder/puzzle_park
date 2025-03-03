@@ -1,0 +1,1 @@
+execute as @a at @s if entity @e[tag=puzzle_park,tag=puzzle_park.ffi.order_table,distance=..20] as @e[tag=puzzle_park,tag=puzzle_park.ffi.order_table,distance=..20] at @s run function puzzle_park:source/internal28

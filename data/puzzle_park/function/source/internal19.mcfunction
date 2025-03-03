@@ -1,0 +1,3 @@
+execute as @e[tag=puzzle_park,tag=puzzle_park.block.wire.display,tag=puzzle_park.block.wire.powered,distance=..20] unless entity @s[nbt={block_state:{Name:"minecraft:white_candle"}}] at @s unless entity @a[distance=20..] run function puzzle_park:source/internal20
+execute as @e[tag=puzzle_park,tag=puzzle_park.block.wire.display,tag=!puzzle_park.block.wire.powered,distance=..20] unless entity @s[nbt={block_state:{Name:"minecraft:gray_candle"}}] at @s unless entity @a[distance=20..] run function puzzle_park:source/internal21
+execute as @a at @s as @e[tag=puzzle_park,tag=puzzle_park.block.wire,distance=..20] at @s run function puzzle_park:source/internal22

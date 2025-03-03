@@ -1,0 +1,2 @@
+execute as @e[tag=puzzle_park.function,tag=puzzle_park,tag=puzzle_park.block.wire.display] at @s unless entity @a[distance=..25] unless entity @a[distance=30..] unless entity @s[nbt={block_state:{Name:"minecraft:air"}}] run function puzzle_park:source/internal18
+execute as @a at @s if entity @e[tag=puzzle_park,tag=puzzle_park.block.wire,distance=..20] run function puzzle_park:source/internal19

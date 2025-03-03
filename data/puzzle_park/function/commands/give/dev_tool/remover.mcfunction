@@ -1,0 +1,1 @@
+give @s allay_spawn_egg[ item_name= '[{"text":"Remover","color": "red","bold": true}]', item_model="minecraft:barrier", entity_data={id: "minecraft:marker", Tags:["puzzle_park", "puzzle_park.spawn_custom", "puzzle_park-dev-remover"]}]

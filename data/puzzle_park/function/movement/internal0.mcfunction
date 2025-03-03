@@ -1,2 +1,1 @@
-tp @s ~ ~-1000 ~
-kill @s
+execute as @s at @s if score @s custom.player.double_jump_cooldown_timer matches 1.. run scoreboard players remove @s custom.player.double_jump_cooldown_timer 1

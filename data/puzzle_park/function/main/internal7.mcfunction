@@ -1,0 +1,5 @@
+playsound minecraft:block.wool.place block @a ~ ~ ~ 1 1.25 0
+summon minecraft:item_display ~ ~ ~ {Tags:["puzzle_park","puzzle_park.ffi","puzzle_park.block.physical","puzzle_park.function","puzzle_park.ffi.order_table","puzzle_park.ffi.order_table.display"],item: {count: 1, id: "minecraft:wooden_sword"}, transformation: {left_rotation: [-9.86865E-17f, 1.0f, -4.967054E-9f, -1.9868216E-8f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f], scale: [0.5f, 0.5f, 0.5f], translation: [0.0f, 0.0f, 0.0f]}}
+execute as @s at @s positioned ^ ^ ^.46875 rotated as @s as @e[tag=!puzzle_park.rotated,tag=puzzle_park.ffi.order_table,type=block_display,distance=..0.0001] run function puzzle_park:main/internal8
+function puzzle_park:source/custom_block/tags/block-axis-nsew/set {Source:"ffi",Name:"order_table",Type:"item_display"} 
+setblock ~ ~ ~ light

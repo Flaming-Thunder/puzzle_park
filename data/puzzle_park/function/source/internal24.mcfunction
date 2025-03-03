@@ -1,0 +1,2 @@
+execute as @s if block ~ ~ ~ air run function puzzle_park:source/internal25
+execute as @s if entity @e[tag=puzzle_park.block.wire,tag=!puzzle_park.block.wire.powered,distance=..0.0001] positioned ^ ^ ^-2 if entity @e[tag=puzzle_park.block.wire,tag=!puzzle_park.block.wire.powered,distance=..0.0001] run function puzzle_park:source/internal26

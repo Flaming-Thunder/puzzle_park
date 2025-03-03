@@ -1,0 +1,2 @@
+execute as @s at @s if score @s client.block.wire.timer matches 1.. run function puzzle_park:source/internal23
+execute as @s at @s if entity @s[tag=puzzle_park.block.wire.powered] positioned ^ ^ ^1 if score @s client.block.wire.timer matches 0 run function puzzle_park:source/internal24

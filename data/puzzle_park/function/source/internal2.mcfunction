@@ -1,4 +1,2 @@
-data modify storage puzzle_park:macro data.function_setname set from entity @s Item.components."minecraft:item_name"
-execute as @e[tag=puzzle_park.block.warp_block.2,tag=puzzle_park.function,distance=..1] run function puzzle_park:source/warp_block/call_function_setname with storage puzzle_park:macro data
-data remove storage puzzle_park:macro data
 kill @s
+particle dust{color:16777215,scale:.25} ~ ~ ~ 0.2 0.2 0.2 0 25 normal

@@ -1,0 +1,1 @@
+scoreboard players remove @s client.block.wire.timer 1

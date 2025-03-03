@@ -1,0 +1,1 @@
+execute as @a at @s if entity @e[tag=puzzle_park.function,tag=puzzle_park,tag=puzzle_park.block.wire,distance=..20] run function puzzle_park:source/internal7
