@@ -83,8 +83,7 @@ say running
     execute as @s at @s positioned ^ ^ ^.46875 rotated as @s as @e[tag=!puzzle_park.rotated,tag=puzzle_park.ffi.order_table,type=block_display,distance=..0.0001] run
       tp @s ~ ~ ~ ~ ~
       tag @s add puzzle_park.rotated
-
-    #function puzzle_park:source/custom_block/tags/block-axis-nsew {Source:"ffi",Block_Name:"order_table",Type:"item_display",Facing:0,Exclude_Face_1:"s",Exclude_Face_2:"e",Exclude_Face_3:"w",Set_Face:"n"}
+      
     function puzzle_park:source/custom_block/tags/block-axis-nsew/set {Source:"ffi",Name:"order_table",Type:"item_display"} 
     setblock ~ ~ ~ light
 

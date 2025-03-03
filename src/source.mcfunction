@@ -50,7 +50,7 @@
   #
 
   /hanging_bar
-    execute as @a at @s if entity @e[tag=puzzle_park.function,tag=puzzle_park,tag=puzzle_park.block.wire,distance=..20] run
+    execute as @a at @s if entity @e[tag=puzzle_park.function,tag=puzzle_park,tag=puzzle_park.block.hanging_bar,distance=..20] run
       execute as @e[tag=puzzle_park,tag=puzzle_park.block.hanging_bar.display] at @s if entity @a[distance=20..25] run
         data merge entity @s {block_state:{Name:"air"}}
       execute as @e[tag=puzzle_park,tag=puzzle_park.block.hanging_bar.display] at @s unless entity @a[distance=20..] run
